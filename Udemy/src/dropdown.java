@@ -5,7 +5,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.Assert;
 
 public class dropdown {
 
@@ -15,21 +14,10 @@ public class dropdown {
 		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		
-		driver.get("https://www.rahulshettyacademy.com/dropdownsPractise/");
+		driver.get("https://rahulshettyacademy.com/seleniumPractise/#/");
 		System.out.println(driver.getTitle());
 		
-		driver.findElement(By.id("autosuggest")).sendKeys("Ind");
 		
-		List<WebElement> options =driver.findElements(By.xpath("//li[@class=\"ui-menu-item\"]/a"));
-
-		for(WebElement option:options) {
-			
-			if(option.getText().equalsIgnoreCase("India")) {  //
-			
-				option.click();
-			break;
-			
-			}
 		
 			
 		}
@@ -39,3 +27,51 @@ public class dropdown {
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//
+//driver.findElement(By.id("autosuggest")).sendKeys("Ind");
+//
+//List<WebElement> options =driver.findElements(By.xpath("//li[@class=\"ui-menu-item\"]/a"));
+//
+//for(WebElement option:options) {
+//	
+//	if(option.getText().equalsIgnoreCase("India")) {  //
+//	
+//		option.click();
+//	break;
+//	
+//	}
+	
