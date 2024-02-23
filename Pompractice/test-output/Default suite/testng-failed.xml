@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="utilityexcel">
+      <class name="amazonHomeTest">
         <methods>
-          <include name="excel"/>
+          <include name="Profession"/>
+          <include name="Automation"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- utilityexcel -->
+      </class> <!-- amazonHomeTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

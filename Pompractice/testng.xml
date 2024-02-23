@@ -1,15 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test name="Test">
-    <parameter name="thread-count" value="5" />
+	<parameter name="thread-count" value="5" />
+  <parameter name="date" value="16-10-2020" />
+ 
+        <listeners>
+            <listener class-name="ScreenshotListener" />
+        </listeners>
+        
+         <test name="Test">
     <classes>
       <class name="amazonLoginTest">
         <methods>
           <include name="testLogin" />
           <include name="testcheck" />
-           <include name="testdate" />
+          <include name="testdate" />
           <!-- Add more test methods as needed -->
+        </methods>
+      </class>
+      <class name="amazonHomeTest">
+        <methods>
+          <!-- Include test methods for amazonHomeTest class here -->
+           <include name="Profession" />
+            <include name="Automation" />
         </methods>
       </class>
     </classes>

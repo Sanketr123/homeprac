@@ -1,17 +1,191 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="2" failed="2" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-25T22:59:31 IST" name="Default suite" finished-at="2023-10-25T22:59:32 IST" duration-ms="672">
+  <suite started-at="2023-11-07T23:20:18 IST" name="Suite" finished-at="2023-11-07T23:20:32 IST" duration-ms="13558">
     <groups>
     </groups>
-    <test started-at="2023-10-25T22:59:31 IST" name="Default test" finished-at="2023-10-25T22:59:32 IST" duration-ms="672">
-      <class name="utilityexcel">
-        <test-method signature="excel()[pri:0, instance:utilityexcel@776aec5c]" started-at="2023-10-25T22:59:31 IST" name="excel" finished-at="2023-10-25T22:59:32 IST" duration-ms="637" status="PASS">
+    <test started-at="2023-11-07T23:20:18 IST" name="Test" finished-at="2023-11-07T23:20:32 IST" duration-ms="13558">
+      <class name="amazonLoginTest">
+        <test-method is-config="true" signature="beforesuite()[pri:0, instance:amazonLoginTest@2925bf5b]" started-at="2023-11-07T23:19:43 IST" name="beforesuite" finished-at="2023-11-07T23:20:18 IST" duration-ms="35087" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- excel -->
-      </class> <!-- utilityexcel -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- beforesuite -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:amazonLoginTest@2925bf5b]" started-at="2023-11-07T23:20:18 IST" name="setUp" finished-at="2023-11-07T23:20:19 IST" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogin()[pri:0, instance:amazonLoginTest@2925bf5b]" started-at="2023-11-07T23:20:19 IST" name="testLogin" finished-at="2023-11-07T23:20:19 IST" duration-ms="482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:amazonLoginTest@2925bf5b]" started-at="2023-11-07T23:20:19 IST" name="setUp" finished-at="2023-11-07T23:20:19 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testcheck()[pri:0, instance:amazonLoginTest@2925bf5b]" started-at="2023-11-07T23:20:19 IST" name="testcheck" finished-at="2023-11-07T23:20:21 IST" duration-ms="1242" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <input id="exp-4" name="exp" style="font-size:14px;margin-left:0;margin-right:0;margin-top:0;padding:0;vertical-align:baseline" type="radio" value="5"> is not clickable at point (569, 524). Other element would receive the click: <iframe frameborder="0" src="https://b3e7023bc29e9304b3d5f6910751024a.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html" id="google_ads_iframe_/1254144,22662382379/techlistic_com-pixel1_1" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="" height="" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" role="region" aria-label="Advertisement" tabindex="0" data-google-container-id="2" data-load-complete="true" style="border: 0px !important; vertical-align: bottom !important; width: 100vw !important; height: 100vh !important; inset: 0px auto auto 0px !important; position: absolute !important; clear: none !important; display: inline !important; float: none !important; margin: 0px !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; padding: 0px !important; visibility: visible !important; z-index: auto !important;"></iframe>
+  (Session info: chrome=119.0.6045.106)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fdf800681b2b47938535dc951637b88c, clickElement {id=7D04E69DABC86643AB343239CC7DD58C_element_79}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.106, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\Sanket Raut\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61832}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61832/devtoo..., se:cdpVersion: 119.0.6045.106, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (fdf800681b2b47938535dc951637b88c)] -> id: exp-4]
+Session ID: fdf800681b2b47938535dc951637b88c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input id="exp-4" name="exp" style="font-size:14px;margin-left:0;margin-right:0;margin-top:0;padding:0;vertical-align:baseline" type="radio" value="5"> is not clickable at point (569, 524). Other element would receive the click: <iframe frameborder="0" src="https://b3e7023bc29e9304b3d5f6910751024a.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html" id="google_ads_iframe_/1254144,22662382379/techlistic_com-pixel1_1" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="" height="" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" role="region" aria-label="Advertisement" tabindex="0" data-google-container-id="2" data-load-complete="true" style="border: 0px !important; vertical-align: bottom !important; width: 100vw !important; height: 100vh !important; inset: 0px auto auto 0px !important; position: absolute !important; clear: none !important; display: inline !important; float: none !important; margin: 0px !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; padding: 0px !important; visibility: visible !important; z-index: auto !important;"></iframe>
+  (Session info: chrome=119.0.6045.106)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fdf800681b2b47938535dc951637b88c, clickElement {id=7D04E69DABC86643AB343239CC7DD58C_element_79}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.106, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\Sanket Raut\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61832}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61832/devtoo..., se:cdpVersion: 119.0.6045.106, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (fdf800681b2b47938535dc951637b88c)] -> id: exp-4]
+Session ID: fdf800681b2b47938535dc951637b88c
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at amazonLogin.checkclick(amazonLogin.java:25)
+at amazonLoginTest.testcheck(amazonLoginTest.java:83)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcheck -->
+        <test-method signature="testdate(java.lang.String)[pri:0, instance:amazonLoginTest@2925bf5b]" started-at="2023-11-07T23:20:21 IST" name="testdate" finished-at="2023-11-07T23:20:21 IST" depends-on-methods="amazonLoginTest.testcheck" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method amazonLoginTest.testdate() on instance amazonLoginTest@2925bf5b depends on not successfully finished methods 
+[amazonLoginTest.testcheck() on instance amazonLoginTest@2925bf5b]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method amazonLoginTest.testdate() on instance amazonLoginTest@2925bf5b depends on not successfully finished methods 
+[amazonLoginTest.testcheck() on instance amazonLoginTest@2925bf5b]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdate -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:amazonLoginTest@2925bf5b]" started-at="2023-11-07T23:20:32 IST" name="tearDown" finished-at="2023-11-07T23:20:33 IST" duration-ms="512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- amazonLoginTest -->
+      <class name="amazonHomeTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:amazonHomeTest@b2c9a9c]" started-at="2023-11-07T23:20:21 IST" name="setUp" finished-at="2023-11-07T23:20:26 IST" duration-ms="5010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Profession()[pri:0, instance:amazonHomeTest@b2c9a9c]" started-at="2023-11-07T23:20:26 IST" name="Profession" finished-at="2023-11-07T23:20:26 IST" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Profession -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:amazonHomeTest@b2c9a9c]" started-at="2023-11-07T23:20:26 IST" name="setUp" finished-at="2023-11-07T23:20:32 IST" duration-ms="6130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Automation()[pri:0, instance:amazonHomeTest@b2c9a9c]" started-at="2023-11-07T23:20:32 IST" name="Automation" finished-at="2023-11-07T23:20:32 IST" duration-ms="143" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[This is a deliberate failure]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: This is a deliberate failure
+at org.testng.Assert.fail(Assert.java:111)
+at amazonHomeTest.Automation(amazonHomeTest.java:63)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Automation -->
+      </class> <!-- amazonHomeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

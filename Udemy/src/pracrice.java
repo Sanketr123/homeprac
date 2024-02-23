@@ -5,11 +5,41 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class pracrice {
 
+
+ interface Animal{
+	
+	void bark();
+}
+ 
+ 
+
+public class Dog implements Animal{
 		
+		public void bark() {
+			
+			System.out.println("Bhau bhau");
+		}
+	}
+
+
+
+public class pracrice {
+	
+
+
+		public static void main(String []args) {
+			
+			Dog dog = new Dog();
+			
+			dog.bark();
+			
+		}
 		
 	}
+
+
+
 
 
 
