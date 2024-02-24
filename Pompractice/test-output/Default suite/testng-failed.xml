@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="amazonHomeTest">
+      <class name="endtoendtestcase.endtoendTC">
         <methods>
-          <include name="Profession"/>
-          <include name="Automation"/>
-          <include name="setUp"/>
+          <include name="vegetables"/>
+          <include name="setup"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- amazonHomeTest -->
+      </class> <!-- endtoendtestcase.endtoendTC -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
