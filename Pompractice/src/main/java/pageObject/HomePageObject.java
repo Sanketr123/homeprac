@@ -61,14 +61,25 @@ public class HomePageObject extends driverclass{
 		for(int i=1;i<4;i++) {
 		addcucumber.click();
 		
+		Thread.sleep(1000);
+		
+		}
+		
 		addtocart.click();
-		
+		Thread.sleep(3000);
+
 		carticon.click();
-		
+		Thread.sleep(3000);
+
 		checkout.click();
+		Thread.sleep(3000);
+		
+		driver.navigate().back();
+		
+		Thread.sleep(3000);
+
+
 		}
 	
-	}
-
-
+	
 }

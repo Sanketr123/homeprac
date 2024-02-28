@@ -11,7 +11,7 @@ import testBase.driverclass;
 public class endtoendTC extends driverclass{
 	
 	  
-		@Test        //priority = 1, groups = "group1"
+		@Test (priority = 1)       //priority = 1, groups = "group1"
 		public static void vegetables() throws InterruptedException {
 				
 			
@@ -27,7 +27,7 @@ public class endtoendTC extends driverclass{
 
 		}
 		
-		@Test
+		@Test(priority = 2)
 		
 		public static void topDeals() throws InterruptedException {
 			
@@ -35,6 +35,11 @@ public class endtoendTC extends driverclass{
 			
 			topdeals.topdealspage();
 			
+			topdeals.SwitchTOChild(driver);
+			
+			topdeals.clickoncalen();
+			
+			Thread.sleep(3000);
 
 }
 		

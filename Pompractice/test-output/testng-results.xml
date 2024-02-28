@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-24T13:02:48 IST" name="Suite" finished-at="2024-02-24T13:02:52 IST" duration-ms="3361">
+  <suite started-at="2024-02-28T23:28:52 IST" name="Suite" finished-at="2024-02-28T23:29:21 IST" duration-ms="29131">
     <groups>
     </groups>
-    <test started-at="2024-02-24T13:02:48 IST" name="endtoendTestcase" finished-at="2024-02-24T13:02:52 IST" duration-ms="3361">
+    <test started-at="2024-02-28T23:28:52 IST" name="endtoendTestcase" finished-at="2024-02-28T23:29:21 IST" duration-ms="29131">
       <class name="endtoendtestcase.endtoendTC">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:endtoendtestcase.endtoendTC@70325e14]" started-at="2024-02-24T13:02:48 IST" name="setup" finished-at="2024-02-24T13:02:51 IST" duration-ms="2958" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:endtoendtestcase.endtoendTC@37ceb1df]" started-at="2024-02-28T23:28:52 IST" name="setup" finished-at="2024-02-28T23:28:58 IST" duration-ms="5246" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="vegetables()[pri:0, instance:endtoendtestcase.endtoendTC@70325e14]" started-at="2024-02-24T13:02:51 IST" name="vegetables" finished-at="2024-02-24T13:02:52 IST" duration-ms="287" status="PASS">
+        <test-method signature="vegetables()[pri:1, instance:endtoendtestcase.endtoendTC@37ceb1df]" started-at="2024-02-28T23:28:58 IST" name="vegetables" finished-at="2024-02-28T23:29:14 IST" duration-ms="16361" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- vegetables -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:endtoendtestcase.endtoendTC@70325e14]" started-at="2024-02-24T13:02:52 IST" name="teardown" finished-at="2024-02-24T13:02:52 IST" duration-ms="83" status="PASS">
+        <test-method signature="topDeals()[pri:2, instance:endtoendtestcase.endtoendTC@37ceb1df]" started-at="2024-02-28T23:29:14 IST" name="topDeals" finished-at="2024-02-28T23:29:21 IST" duration-ms="7404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- topDeals -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:endtoendtestcase.endtoendTC@37ceb1df]" started-at="2024-02-28T23:29:21 IST" name="teardown" finished-at="2024-02-28T23:29:21 IST" duration-ms="63" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

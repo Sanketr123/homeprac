@@ -5,7 +5,7 @@
     <classes>
       <class name="endtoendtestcase.endtoendTC">
         <methods>
-          <include name="vegetables"/>
+          <include name="topDeals"/>
           <include name="setup"/>
           <include name="teardown"/>
         </methods>

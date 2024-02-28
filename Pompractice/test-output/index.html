@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,6 +101,11 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
                     <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="endtoendtestcase.endtoendTC" class="method navigator-link" hash-for-method="topDeals">topDeals</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="endtoendtestcase.endtoendTC" class="method navigator-link" hash-for-method="vegetables">vegetables</a> <!-- method navigator-link -->
@@ -124,6 +129,13 @@
               <span class="class-name">endtoendtestcase.endtoendTC</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="topDeals">
+                  </a> <!-- topDeals -->
+                  <span class="method-name">topDeals</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="vegetables">
@@ -186,16 +198,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'vegetables')
 data.setCell(0, 2, 'endtoendtestcase.endtoendTC')
-data.setCell(0, 3, 287);
+data.setCell(0, 3, 16361);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'topDeals')
+data.setCell(1, 2, 'endtoendtestcase.endtoendTC')
+data.setCell(1, 3, 7404);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 287 ms</span>
+              <span class="suite-total-time">Total running time: 23 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -228,11 +244,15 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">vegetables</span>
-                <span class="method-start">2979 ms</span>
+                <span class="method-start">5268 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">topDeals</span>
+                <span class="method-start">21652 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">3271 ms</span>
+                <span class="method-start">29059 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
